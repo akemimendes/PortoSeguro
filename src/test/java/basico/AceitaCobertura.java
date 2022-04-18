@@ -650,7 +650,7 @@ public class AceitaCobertura {
         //ass24h
         Thread.sleep( 1000 );
         if (dados.getAss24().contains( "3" )) {
-            driver.findElement(By.xpath( "//*[contains(text(), 'Pacote Assistências')]//*[contains(@class='radiobutton__input')]" ) ).click();
+
 
           /*  r.keyPress( KeyEvent.VK_TAB );
             r.keyRelease( KeyEvent.VK_TAB );*/
